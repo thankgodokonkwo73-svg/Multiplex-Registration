@@ -3,7 +3,7 @@ schema_version = "1.4"
 artifacts = ["/app/output/segmentation.npz", "/app/output/phenotype.csv", "/app/output/qc.json"]
 
 [task]
-name = "afterquery/multiplex-phenotyping"
+name = "multiplex-phenotyping"
 description = "Recover nuclear and whole-cell instances and quantify marker profiles in held-out multiplex immunofluorescence fields."
 authors = [{ name = "ThankGod Okonkwo", email = "thankgodokonkwo73@gmail.com" }]
 keywords = ["bioimaging", "multiplex-immunofluorescence", "cell-segmentation", "phenotyping"]
