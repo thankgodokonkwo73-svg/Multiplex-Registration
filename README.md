@@ -17,7 +17,6 @@ This candidate uses real public data rather than a synthetic simulator:
 
 Five annotated fields are exposed as examples. Five fields are held out; their manual masks remain only in the sealed verifier. Agent-visible identifiers are opaque. Source attribution, original filenames, mapping, and checksums are in `authoring/provenance/source_manifest.json`.
 
-The project-specific AfterQuery instructions require the `afterquery/` task-name prefix, so the manifest uses `afterquery/multiplex-phenotyping` rather than the generic template prefix.
 
 ## Difficulty
 
